@@ -1,0 +1,38 @@
+/* we will only be styling glyphicons 
+that are inside the element features with a class of gylphicon */
+.features .glyphicon {
+	font-size: 32px;
+}
+
+/* similar to <br> except a div -- creates horizontal space of 20px */
+.top-buffer { margin-top:20px; }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  padding-top: 70px;
+  margin-bottom: 200px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 200px;
+}
+.footer {
+  color: #efefef;
+  background-color: #333;
+}
+.footer a {
+  color: #9af7fe;
+}
+@media only screen and (max-width: 768px) {
+  body { margin-bottom: 400px; }
+  .footer { height: 400px; }
+}

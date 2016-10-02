@@ -1,0 +1,221 @@
+html, body {
+    background-image: url("/backgrounds-index/sublime.jpeg");
+    background-size: initial;
+    color: #fff;
+    font-family: 'Raleway', sans;
+    /*font-style: bold;*/
+    font-weight: bold;
+    height: 77vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 75vh;
+}
+
+.flex-center {
+    -webkit-box-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+div > a {
+    color: #fff;
+    padding: 0 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+#main_text {
+    background-color: rgba(14, 10, 8, 0.85);
+    /*  margin-left: 30vw;
+  margin-right: 30vw;*/
+    margin-top: 30vh;
+    padding-bottom: 13px;
+    /*padding-right: 17px;*/
+    padding-top: 13px;
+}
+
+#main_text h5 {
+    /*background-color: rgb(14, 10, 8);*/
+    opacity: 1;
+    font-size: 0.83em;
+    display: block;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#index-header {
+    background-color: #0e0a08;
+    width: auto;
+    opacity: 0.75;
+    display: block;
+    height: auto;
+}
+
+#index-header div a img {
+    /*margin-top: 0.7vw;*/
+    margin-top: -0.5vh;
+    margin-right: -1.8vw;
+    /*margin-left: 97vw; */
+}
+
+
+/*.col-sm-1 {
+  width: 4vw;
+  padding-bottom: 2vh;
+}*/
+
+
+/*.Alert {
+  background-color: grey;
+  margin: 0;
+  padding: 7px;
+}*/
+
+
+/*#main_text div {
+  opacity: 1.0;
+}*/
+
+.Alert {
+    background-color: grey;
+    margin: 0;
+    padding: 7px;
+    text-align: center;
+}
+
+.Alert--success {
+    background-color: grey;
+    margin: 0;
+    padding: 7px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+.Alert--error {
+    background-color: grey;
+    margin: 0;
+    padding: 7px;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navbar-brand {
+    /*  padding-right: 0px; 
+  float: none;*/
+    float: right;
+    padding-right: 1vw;
+}
+
+
+/*.dropdown-menu {*/
+
+
+/*left: 13.6vw; */
+
+
+/*position: relative;*/
+
+
+/*display: inline-block;*/
+
+
+/*}*/
+
+
+/*button ul {
+
+}*/
+
+.dropdown {
+    width: 100px;
+    display: inline-block;
+    /*margin-left: 13.6vw;*/
+    /*margin-right: 13.6vw;*/
+}
+
+#buttonDiv button {
+    /*display: block;*/
+    width: 100px;
+    display: inline-block;
+    width: relative;
+}
+
+#buttonDiv button:hover > .dropdown-menu {
+    display: inline-block;
+    position: absolute;
+}
+
+
+/* hide the projects by default */
+
+
+/*dropdown-menu {
+  display: none;
+}*/
+
+
+/*# sourceMappingURL=style.css.map */
+
+
+/*# sourceMappingURL=style.css.map */
+
+
+/*.caret-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+    
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}*/
+
+#iconInfoDiv {
+  /*float: right;*/
+  position: fixed;
+  bottom: 5px;
+}
+.dropdown-menu {
+  margin-top: 0px;
+}
